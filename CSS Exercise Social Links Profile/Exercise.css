@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: rgb(26, 24, 24);
+    height: 100vh;
+}
+
+.divSecundar{
+    background-color: rgb(51, 49, 49);
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    /* Pozitionarea div-ului care contine zona gri pe centru */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.poza{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h5{
+    color: yellow;
+    text-align: center;
+}
+
+p{
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
+
+button{
+    position: relative;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    display: block;
+    margin-top: 15px;
+    height: 30px;
+    width: 350px;
+    background-color: rgb(91, 89, 89);
+    color: white;
+    border-radius: 7px;
+}
+
+button:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    color: black;
+}
+

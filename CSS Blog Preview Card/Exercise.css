@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+body{
+    background-color: rgb(238, 188, 95);
+    height: 100vh;
+}
+
+.primulDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    margin: 0 auto;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px black;
+}
+
+#pozaLogo{
+    height: 200px;
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    /* padding-top: 30px; */
+    /* padding-bottom: 15px; */
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h4{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: orange;
+    background-clip: padding-box;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+h5{
+    padding: 10px 30px;
+    font-weight: lighter;
+}
+
+h1{
+    padding: 5px 30px;
+    font-size: 25px;
+}
+
+h1:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.primulParagraf{
+    padding: 10px 30px;
+    color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pozaAvatar{
+    display: inline-block;
+    padding: 10px 30px;
+    height: 40px;
+}
+
+.alDoileaParagraf{
+    display: inline-block;
+    font-weight: bolder;
+    margin-left: -25px;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}

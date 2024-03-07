@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* height: 100vh; */
+    width: 100vw;
+    background-color:bisque;
+    padding: 2.5% 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h1{
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.list_spacing{
+    padding-left: 25px;
+    margin-bottom: 40px;
+}
+
+.card__preparation__container h4{
+    margin-bottom: 5px;
+    padding-left: 40px;
+    color: purple;
+    font-size: 20px;
+}
+
+.card__preparation__container{
+    background-color: rgb(249, 244, 244);
+}
+
+.listPreparationTime{
+    list-style-type: disc;
+    margin-top: 5px;
+    padding-left: 60px;
+    padding-top: 5px;
+}
+
+.listPreparationTime li{
+    margin-bottom: 5px;
+    color: grey;
+    font-size: 17px;
+}
+
+.first-word {
+    font-weight: bold;
+    color: black;
+    font-size: 17px;
+}
+
+.card__ingredients__container h4{
+    margin-top: 40px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: brown;
+}
+
+.list_spacing li{
+    margin-top: 5px;
+    color:grey;
+}
+
+.card__instructions__container h4{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: brown;
+}
+
+::marker{
+    color: brown;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card__nutrition__container h4{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: brown;
+}
+
+.font__style{
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.leftTable{
+    color: grey;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rightTable{
+    color: brown;
+    font-weight: bold;
+    padding-right:55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%; /* Asigură că tabelul ocupă întreaga lățime a containerului */
+    border-collapse: collapse; /* Înlătură spațiile dintre celule pentru a face linia continuă */
+  }
+  
+  .myRow {
+    margin-bottom: 5px;
+    border-bottom: 1px solid grey; /* Adaugă o linie sub fiecare rând al tabelului */
+  }
+
+/* Ultil classes */
+
+.spacing {
+    margin: 10px 0;
+}
+
+.card_container{
+    background-color: white;
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 0 25% 0 25%;
+    padding: 35px;
+    /* overflow-y: scroll; */
+}
+   
+.card__image__container{
+    height: fit-content;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.card__image{
+    width: 100%;
+}
+
+/* Overview infor */
+
+.card__overview__container{
+    /* background-color: red; */
+}
+
+.card__overview__container > p {
+    font-size: 17px;
+    color: grey;
+    margin-bottom: 45px;
+}
